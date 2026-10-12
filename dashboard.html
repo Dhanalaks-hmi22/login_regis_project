@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="auth-container">
+        <div class="auth-card dashboard-card">
+
+            <div class="icon">🎉</div>
+
+            <h1>Welcome to Dashboard!</h1>
+
+            <p class="subtitle">
+                You have successfully logged in.
+            </p>
+
+            <div class="user-details">
+                <p>Name: <strong id="user-name"></strong></p>
+                <p>Email: <strong id="user-email"></strong></p>
+                <p>Status: <strong class="status">Logged In ✓</strong></p>
+            </div>
+
+            <button id="logout-button">Logout</button>
+
+            <p id="dashboard-message" class="message" aria-live="polite"></p>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
